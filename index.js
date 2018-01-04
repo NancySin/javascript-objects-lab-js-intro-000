@@ -1,7 +1,7 @@
 var recipes = {
   oatmeal: "1cup",
   raisins: "1/2 cup"
-  sugar:" 1gram"
+  sugar: "1gram"
 }
 
 
