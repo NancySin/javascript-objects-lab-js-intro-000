@@ -1,3 +1,10 @@
+var recipes = {
+  oatmeal: "1cup",
+  raisins: "1/2 cup"
+  sugar:" 1gram"
+}
+
+
 
 function updateObjectWithKeyAndValue(object, key, value){
   return Object.assign({}, Object, {[key]:value})
@@ -9,7 +16,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 }
 
 function deleteFromObjectByKey(object, key){
-  newObj= object.assign({}, object)
+  var newObj= Object.assign({}, object)
   delete newObj =[key]
   return newObj]
 }
